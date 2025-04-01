@@ -1,0 +1,12 @@
+.movie-window {
+    justify-content: right;
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    border: none;
+}
+.movie-window:hover {
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
