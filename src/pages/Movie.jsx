@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../css/Movie.css";
 
@@ -25,7 +24,7 @@ function MoviePage() {
 
             <div className="movie-title">
                 <p>{movie.title}</p>
-                <a href={movie_url} target="_blank">if the player doesn't work click here</a>
+                <a href={movie_url} target="_blank">if the player does not work click here</a>
             </div>
         </div>
     );
