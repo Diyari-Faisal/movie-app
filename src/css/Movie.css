@@ -19,3 +19,15 @@
     padding: 1rem;
     width: 800px;
 }
+@media (max-width: 600px) {
+  .movie-window {
+    margin-top: 1rem;
+    width: 100vw;
+    height: 250px;
+    border-radius: 0px;
+  }
+  .movie-title {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
